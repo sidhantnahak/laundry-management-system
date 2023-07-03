@@ -1,0 +1,26 @@
+.footer_div {
+  width: calc(100% - 250px);
+  position: relative;
+  left: 250px;  
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: bold;
+  font-size: 1.3em;
+  font-weight: 500;
+  color: rgb(57, 53, 53);
+  padding: 1.2rem;
+  background: rgb(171 215 234);
+}
+
+.footer_div p{
+  text-align: center;
+}
+
+@media(max-width:750px){
+  .footer_div{
+    position: static;
+    width: 100%;
+  }
+}

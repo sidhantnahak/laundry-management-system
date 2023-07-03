@@ -1,0 +1,82 @@
+
+.login_signup_div a{
+    margin:0 0.5em;
+    padding:0.5em 1.8em;
+    background:tomato;
+    color:white;
+    border-radius:34px;
+    font-weight:700;
+    transition: all 0.1s ease-in;
+    
+}
+
+.login_signup_div a:hover{
+    background-color: rgb(192, 71, 50);
+    
+}
+
+.home_content{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background:#1a40bb;
+    color:white
+}
+.home_content h1{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.home_content h2{
+    text-align: center;
+    margin-top: 0.4rem;
+    font-size:1.8rem;
+}
+.home_content h2 a{
+    color: red;
+}
+
+@media(max-width:850px){
+    .home_content h1{
+        font-size: 2rem;
+    }
+    .home_content h2{
+        font-size:1.5rem;
+    }
+}
+@media(max-width:700px){
+    .home_content h1{
+        font-size: 1.7rem;
+    }
+    .home_content h2{
+        font-size:1.2rem;
+    }
+}
+
+@media(max-width:570px){
+    .home_content h1{
+        font-size: 1.4rem;
+    }
+    .home_content h2{
+        font-size:1rem;
+    }
+}
+
+@media(max-width:460px){
+    .home_content h1{
+        font-size: 1.1rem;
+    }
+    .home_content h2{
+        font-size:0.7rem;
+    }
+}
+
+@media(max-width:360px){
+    .home_content h1{
+        font-size: 0.8rem;
+    }
+    .home_content h2{
+        font-size:0.5rem;
+    }
+}

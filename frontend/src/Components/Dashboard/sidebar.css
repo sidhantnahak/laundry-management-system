@@ -1,0 +1,52 @@
+.sidebar_pro{
+    height: calc(100vh - 70px);
+    position: fixed;
+    top: 70px;
+    font-size: 1.2em;
+    height: auto;
+    z-index: 1;
+    overflow: auto;
+
+    
+
+    
+}
+.css-1wvake5 ::-webkit-scrollbar{
+    display: none;
+}
+.css-1wvake5{
+    position: fixed;
+
+}
+.side_menu{
+
+     background-color: rgb(0 0 0);
+    height: calc(100vh - 70px);
+     padding: 1em 0.5em;
+
+color: rgb(180, 177, 177);
+font-weight: 600;
+overflow: auto;
+
+
+
+}
+.sidebar_pro.active{
+    
+    height: 0;
+}
+
+.menu_item{
+    background-color: black;
+    background: black;
+
+}
+
+
+
+@media(max-width:800px){
+    
+}
+
+
+

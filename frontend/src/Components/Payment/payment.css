@@ -1,0 +1,8 @@
+.table_container1 #payment_id{
+    cursor: pointer;
+    text-decoration: underline;
+}
+#payment_id:hover{
+
+    color: rgb(238, 72, 72);
+}

@@ -1,0 +1,96 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.login_container {
+  padding-top: 5em;
+  height: 700px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login_heading {
+  margin-bottom: 1rem;
+}
+.form {
+  background-color: rgb(79, 73, 73);
+  color: white;
+  height: 230px;
+  width: 350px;
+  padding: 15px 30px 0 30px;
+  border: 1px solid white;
+  border-radius: 10px;
+  box-shadow: 2px 2px rgb(149, 145, 145);
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+form > input {
+  border-radius: 15px;
+  padding: 1em;
+  margin: 6px;
+  width: 22em;
+}
+.form > button {
+  background-color: black;
+  border: 0.5px solid white;
+  color: white;
+  width: 6.5em;
+  height: 2.5em;
+  margin-left: 12px;
+  margin-top: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.form a{
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.login_links :first-child {
+  color: red;
+}
+.login_links :last-child{
+  color: white;
+
+}
+.login_links :first-child:hover{
+  color: rgb(244, 94, 94);
+
+}
+.login_links :last-child:hover{
+  color: rgb(200, 200, 203);
+
+}
+
+
+
+p > :first-child {
+  list-style: none;
+}
+
+.login_links {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 10em;
+  bottom: 2.3em;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 550px) {
+  .login_container{
+    width: 120%;
+   margin-left: 40px;
+
+  }
+  /* .form{
+    width: 100%;
+   margin: auto;
+  } */
+}

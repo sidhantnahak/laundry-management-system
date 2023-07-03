@@ -1,0 +1,18 @@
+.request_item_detail_container{
+    margin: 2rem;
+    margin-top: 0;
+    padding: 2em;
+    padding-top: 0;
+
+display: flex;
+align-items: flex-start;
+gap: 8em;
+
+height: 80%;
+}
+.request_item_detail_container ul li{
+    margin-top: 1.2em;
+    font-size: 1.2em;
+}
+
+

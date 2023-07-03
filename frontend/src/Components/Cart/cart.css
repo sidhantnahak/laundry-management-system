@@ -1,0 +1,23 @@
+.cart_table_container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   margin-top: 3em;
+   /* min-height: 100%; */
+}
+.cart_table_container table td{
+    border-collapse: collapse;
+    border: none;
+}
+
+.cart_table_container table th{
+    border-collapse: collapse;
+    border: none;
+}
+.cart_table{
+    width: 90%;
+}
+.cart_table tbody{
+    border-bottom: 2px solid black;
+}
